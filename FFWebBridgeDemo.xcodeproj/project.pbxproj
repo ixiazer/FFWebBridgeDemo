@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C7F5DB1C7C3B6F00CB7059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C7F5DA1C7C3B6F00CB7059 /* main.m */; };
+		17C7F5DE1C7C3B6F00CB7059 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C7F5DD1C7C3B6F00CB7059 /* AppDelegate.m */; };
+		17C7F5E11C7C3B6F00CB7059 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C7F5E01C7C3B6F00CB7059 /* ViewController.m */; };
+		17C7F5E41C7C3B6F00CB7059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C7F5E21C7C3B6F00CB7059 /* Main.storyboard */; };
+		17C7F5E61C7C3B6F00CB7059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C7F5E51C7C3B6F00CB7059 /* Assets.xcassets */; };
+		17C7F5E91C7C3B6F00CB7059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C7F5E71C7C3B6F00CB7059 /* LaunchScreen.storyboard */; };
+		17C7F5F41C7C3B6F00CB7059 /* FFWebBridgeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C7F5F31C7C3B6F00CB7059 /* FFWebBridgeDemoTests.m */; };
+		17C7F5FF1C7C3B6F00CB7059 /* FFWebBridgeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C7F5FE1C7C3B6F00CB7059 /* FFWebBridgeDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C7F5F01C7C3B6F00CB7059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C7F5CE1C7C3B6F00CB7059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C7F5D51C7C3B6F00CB7059;
+			remoteInfo = FFWebBridgeDemo;
+		};
+		17C7F5FB1C7C3B6F00CB7059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C7F5CE1C7C3B6F00CB7059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C7F5D51C7C3B6F00CB7059;
+			remoteInfo = FFWebBridgeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17C7F5D61C7C3B6F00CB7059 /* FFWebBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFWebBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C7F5DA1C7C3B6F00CB7059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17C7F5DC1C7C3B6F00CB7059 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17C7F5DD1C7C3B6F00CB7059 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17C7F5DF1C7C3B6F00CB7059 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17C7F5E01C7C3B6F00CB7059 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17C7F5E31C7C3B6F00CB7059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17C7F5E51C7C3B6F00CB7059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C7F5E81C7C3B6F00CB7059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17C7F5EA1C7C3B6F00CB7059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C7F5EF1C7C3B6F00CB7059 /* FFWebBridgeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFWebBridgeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C7F5F31C7C3B6F00CB7059 /* FFWebBridgeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFWebBridgeDemoTests.m; sourceTree = "<group>"; };
+		17C7F5F51C7C3B6F00CB7059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C7F5FA1C7C3B6F00CB7059 /* FFWebBridgeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFWebBridgeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C7F5FE1C7C3B6F00CB7059 /* FFWebBridgeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFWebBridgeDemoUITests.m; sourceTree = "<group>"; };
+		17C7F6001C7C3B6F00CB7059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C7F5D31C7C3B6F00CB7059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C7F5EC1C7C3B6F00CB7059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C7F5F71C7C3B6F00CB7059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C7F5CD1C7C3B6F00CB7059 = {
+			isa = PBXGroup;
+			children = (
+				17C7F5D81C7C3B6F00CB7059 /* FFWebBridgeDemo */,
+				17C7F5F21C7C3B6F00CB7059 /* FFWebBridgeDemoTests */,
+				17C7F5FD1C7C3B6F00CB7059 /* FFWebBridgeDemoUITests */,
+				17C7F5D71C7C3B6F00CB7059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17C7F5D71C7C3B6F00CB7059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C7F5D61C7C3B6F00CB7059 /* FFWebBridgeDemo.app */,
+				17C7F5EF1C7C3B6F00CB7059 /* FFWebBridgeDemoTests.xctest */,
+				17C7F5FA1C7C3B6F00CB7059 /* FFWebBridgeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C7F5D81C7C3B6F00CB7059 /* FFWebBridgeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				17C7F5DC1C7C3B6F00CB7059 /* AppDelegate.h */,
+				17C7F5DD1C7C3B6F00CB7059 /* AppDelegate.m */,
+				17C7F5DF1C7C3B6F00CB7059 /* ViewController.h */,
+				17C7F5E01C7C3B6F00CB7059 /* ViewController.m */,
+				17C7F5E21C7C3B6F00CB7059 /* Main.storyboard */,
+				17C7F5E51C7C3B6F00CB7059 /* Assets.xcassets */,
+				17C7F5E71C7C3B6F00CB7059 /* LaunchScreen.storyboard */,
+				17C7F5EA1C7C3B6F00CB7059 /* Info.plist */,
+				17C7F5D91C7C3B6F00CB7059 /* Supporting Files */,
+			);
+			path = FFWebBridgeDemo;
+			sourceTree = "<group>";
+		};
+		17C7F5D91C7C3B6F00CB7059 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C7F5DA1C7C3B6F00CB7059 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17C7F5F21C7C3B6F00CB7059 /* FFWebBridgeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C7F5F31C7C3B6F00CB7059 /* FFWebBridgeDemoTests.m */,
+				17C7F5F51C7C3B6F00CB7059 /* Info.plist */,
+			);
+			path = FFWebBridgeDemoTests;
+			sourceTree = "<group>";
+		};
+		17C7F5FD1C7C3B6F00CB7059 /* FFWebBridgeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17C7F5FE1C7C3B6F00CB7059 /* FFWebBridgeDemoUITests.m */,
+				17C7F6001C7C3B6F00CB7059 /* Info.plist */,
+			);
+			path = FFWebBridgeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C7F5D51C7C3B6F00CB7059 /* FFWebBridgeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C7F6031C7C3B6F00CB7059 /* Build configuration list for PBXNativeTarget "FFWebBridgeDemo" */;
+			buildPhases = (
+				17C7F5D21C7C3B6F00CB7059 /* Sources */,
+				17C7F5D31C7C3B6F00CB7059 /* Frameworks */,
+				17C7F5D41C7C3B6F00CB7059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFWebBridgeDemo;
+			productName = FFWebBridgeDemo;
+			productReference = 17C7F5D61C7C3B6F00CB7059 /* FFWebBridgeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C7F5EE1C7C3B6F00CB7059 /* FFWebBridgeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C7F6061C7C3B6F00CB7059 /* Build configuration list for PBXNativeTarget "FFWebBridgeDemoTests" */;
+			buildPhases = (
+				17C7F5EB1C7C3B6F00CB7059 /* Sources */,
+				17C7F5EC1C7C3B6F00CB7059 /* Frameworks */,
+				17C7F5ED1C7C3B6F00CB7059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C7F5F11C7C3B6F00CB7059 /* PBXTargetDependency */,
+			);
+			name = FFWebBridgeDemoTests;
+			productName = FFWebBridgeDemoTests;
+			productReference = 17C7F5EF1C7C3B6F00CB7059 /* FFWebBridgeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17C7F5F91C7C3B6F00CB7059 /* FFWebBridgeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C7F6091C7C3B6F00CB7059 /* Build configuration list for PBXNativeTarget "FFWebBridgeDemoUITests" */;
+			buildPhases = (
+				17C7F5F61C7C3B6F00CB7059 /* Sources */,
+				17C7F5F71C7C3B6F00CB7059 /* Frameworks */,
+				17C7F5F81C7C3B6F00CB7059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C7F5FC1C7C3B6F00CB7059 /* PBXTargetDependency */,
+			);
+			name = FFWebBridgeDemoUITests;
+			productName = FFWebBridgeDemoUITests;
+			productReference = 17C7F5FA1C7C3B6F00CB7059 /* FFWebBridgeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C7F5CE1C7C3B6F00CB7059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FF;
+				TargetAttributes = {
+					17C7F5D51C7C3B6F00CB7059 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					17C7F5EE1C7C3B6F00CB7059 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 17C7F5D51C7C3B6F00CB7059;
+					};
+					17C7F5F91C7C3B6F00CB7059 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 17C7F5D51C7C3B6F00CB7059;
+					};
+				};
+			};
+			buildConfigurationList = 17C7F5D11C7C3B6F00CB7059 /* Build configuration list for PBXProject "FFWebBridgeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C7F5CD1C7C3B6F00CB7059;
+			productRefGroup = 17C7F5D71C7C3B6F00CB7059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C7F5D51C7C3B6F00CB7059 /* FFWebBridgeDemo */,
+				17C7F5EE1C7C3B6F00CB7059 /* FFWebBridgeDemoTests */,
+				17C7F5F91C7C3B6F00CB7059 /* FFWebBridgeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C7F5D41C7C3B6F00CB7059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C7F5E91C7C3B6F00CB7059 /* LaunchScreen.storyboard in Resources */,
+				17C7F5E61C7C3B6F00CB7059 /* Assets.xcassets in Resources */,
+				17C7F5E41C7C3B6F00CB7059 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C7F5ED1C7C3B6F00CB7059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C7F5F81C7C3B6F00CB7059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C7F5D21C7C3B6F00CB7059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C7F5E11C7C3B6F00CB7059 /* ViewController.m in Sources */,
+				17C7F5DE1C7C3B6F00CB7059 /* AppDelegate.m in Sources */,
+				17C7F5DB1C7C3B6F00CB7059 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C7F5EB1C7C3B6F00CB7059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C7F5F41C7C3B6F00CB7059 /* FFWebBridgeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C7F5F61C7C3B6F00CB7059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C7F5FF1C7C3B6F00CB7059 /* FFWebBridgeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C7F5F11C7C3B6F00CB7059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C7F5D51C7C3B6F00CB7059 /* FFWebBridgeDemo */;
+			targetProxy = 17C7F5F01C7C3B6F00CB7059 /* PBXContainerItemProxy */;
+		};
+		17C7F5FC1C7C3B6F00CB7059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C7F5D51C7C3B6F00CB7059 /* FFWebBridgeDemo */;
+			targetProxy = 17C7F5FB1C7C3B6F00CB7059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17C7F5E21C7C3B6F00CB7059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C7F5E31C7C3B6F00CB7059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17C7F5E71C7C3B6F00CB7059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C7F5E81C7C3B6F00CB7059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17C7F6011C7C3B6F00CB7059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17C7F6021C7C3B6F00CB7059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C7F6041C7C3B6F00CB7059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FFWebBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshfresh.FFWebBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17C7F6051C7C3B6F00CB7059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FFWebBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshfresh.FFWebBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17C7F6071C7C3B6F00CB7059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FFWebBridgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshfresh.FFWebBridgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFWebBridgeDemo.app/FFWebBridgeDemo";
+			};
+			name = Debug;
+		};
+		17C7F6081C7C3B6F00CB7059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FFWebBridgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshfresh.FFWebBridgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFWebBridgeDemo.app/FFWebBridgeDemo";
+			};
+			name = Release;
+		};
+		17C7F60A1C7C3B6F00CB7059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FFWebBridgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshfresh.FFWebBridgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FFWebBridgeDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		17C7F60B1C7C3B6F00CB7059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FFWebBridgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshfresh.FFWebBridgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FFWebBridgeDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C7F5D11C7C3B6F00CB7059 /* Build configuration list for PBXProject "FFWebBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C7F6011C7C3B6F00CB7059 /* Debug */,
+				17C7F6021C7C3B6F00CB7059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C7F6031C7C3B6F00CB7059 /* Build configuration list for PBXNativeTarget "FFWebBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C7F6041C7C3B6F00CB7059 /* Debug */,
+				17C7F6051C7C3B6F00CB7059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17C7F6061C7C3B6F00CB7059 /* Build configuration list for PBXNativeTarget "FFWebBridgeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C7F6071C7C3B6F00CB7059 /* Debug */,
+				17C7F6081C7C3B6F00CB7059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17C7F6091C7C3B6F00CB7059 /* Build configuration list for PBXNativeTarget "FFWebBridgeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C7F60A1C7C3B6F00CB7059 /* Debug */,
+				17C7F60B1C7C3B6F00CB7059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C7F5CE1C7C3B6F00CB7059 /* Project object */;
+}
